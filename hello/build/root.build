@@ -1,0 +1,11 @@
+cxx.std = latest
+cxx.features.modules = true
+
+using cxx
+
+mxx{*}: extension = mxx
+cxx{*}: extension = cxx
+
+# The test target for cross-testing (running tests under Wine, etc).
+#
+test.target = $cxx.target

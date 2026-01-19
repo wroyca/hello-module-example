@@ -1,0 +1,13 @@
+// file: hello.mxx (module interface)
+
+module;
+
+#include <string_view>
+
+export module hello;
+
+export namespace hello
+{
+  void
+  say_hello (const std::string_view& name);
+}

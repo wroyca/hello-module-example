@@ -1,0 +1,7 @@
+hello
+*.test
+
+# Testscript output directory (can be symlink).
+#
+test-hello
+test-*.test
